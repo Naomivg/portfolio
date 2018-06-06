@@ -4,16 +4,25 @@
 }
 
 h1{
-	font-family: "Typewriter";
+	font-family: "League Spartan";
 	color: #FFD55D;
 }
 
+h3{
+	font-size: 18px;
+}
 .flex{
 	display: flex;
 }
 
 .column{
 	width: 50%;
+}
+
+.column2{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .center{
@@ -31,6 +40,7 @@ h1{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-top: 20px;
 }
 
 .info{
@@ -90,9 +100,86 @@ h1{
 	width: 70%;
 }
 
+.campagne{
+	width: 30%;
+}
+
+.campaign{
+	display: flex;
+	flex-direction: row;
+}
+
+.color{
+	background-color: #607D8B;
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+.image-container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exeption{
+	color: white;
+}
+
+.shadowhunters{
+	margin-left: 70px;
+}
+
+address{
+	margin-top: 5px;
+}
+
 footer{
 	background-color: #FFD55D;
 	color: black;
-	margin: 0px;
+	margin-top: 150px;
+	margin-bottom: 0px;
 	height: 30px;
+}
+
+.project{
+	width: 80%;
+}
+
+
+.portfolio{
+	height: 100%;
+	background-color: #F48FB1;
+}
+
+.other{
+	height: 100%;
+	background-color: #90CAF9;
+}
+
+.others{
+	height: 100%;
+	background-color: #BCAAA4;
+}
+
+.design{
+	margin-left: 35px;
+}
+
+.image_{
+	width: 80%;
+}
+
+button{
+	background-color: #FFD55D;
+	border: none;
+	font-size: 15px;
+	margin-top: 200px;
+}
+
+.imperium{
+	margin-left: auto;
+	margin-right: auto;
 }
