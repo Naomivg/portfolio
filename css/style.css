@@ -1,0 +1,98 @@
+@import url("navigatie.css");
+*{
+  font-family: "Open sans";
+}
+
+h1{
+	font-family: "Typewriter";
+	color: #FFD55D;
+}
+
+.flex{
+	display: flex;
+}
+
+.column{
+	width: 50%;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+
+.image{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.info{
+	width: 25%;
+	margin: 20px;
+}
+
+
+.title{
+	display: flex;
+	justify-content: center;
+}
+
+.projecten{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.text{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+
+.header{
+	width: 100%;
+}
+
+.icon{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.me_{
+	width: 50%;
+	height: 70%;
+}
+
+.paragraph{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.wrap{
+	width: 32px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+}
+
+.lockscreen{
+	width: 70%;
+}
+
+footer{
+	background-color: #FFD55D;
+	color: black;
+	margin: 0px;
+	height: 30px;
+}
