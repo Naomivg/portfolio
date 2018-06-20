@@ -3,7 +3,7 @@
   font-family: "Open sans";
 }
 
-h1{
+h1, h2{
 	font-family: "League Spartan";
 	color: #FFD55D;
 }
@@ -34,6 +34,12 @@ h3{
 .image{
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.image1{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px;
 }
 
 .container{
@@ -110,8 +116,8 @@ h3{
 }
 
 .color{
-	background-color: #607D8B;
-	color: white;
+	background-color: #BBFFFF;
+	color: black;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -125,7 +131,7 @@ h3{
 }
 
 .exeption{
-	color: white;
+	color: black;
 }
 
 .shadowhunters{
@@ -182,4 +188,10 @@ button{
 .imperium{
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.extra{
+	background-color: #BBFFFF;
+	width: 1000px;
+	margin: auto;
 }
