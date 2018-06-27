@@ -165,13 +165,12 @@ footer{
 	color: black;
 	margin-top: 150px;
 	margin-bottom: 0px;
-	height: 50px;
+	height: 100px;
 }
 
 .copyright{
 	display: flex;
-	justify-content: flex-end;
-	margin-right: 20px;
+	justify-content: center;
 }
 
 .project{
@@ -181,20 +180,20 @@ footer{
 
 .portfolio{
 	height: 100%;
-	background-color: #F48FB1;
+	background-color: #FCE4EC;
 	border-radius: 20px;
 }
 
 .other{
 	height: 100%;
-	background-color: #90CAF9;
+	background-color: #E3F2FD;
 	border-radius: 20px;
 }
 
 
 .others{
 	height: 100%;
-	background-color: #FCE4EC;
+	background-color: #EFEBE9;
 	border-radius: 20px;
 }
 
@@ -223,6 +222,11 @@ button{
 	width: 1000px;
 	margin: auto;
 	border-radius: 30px;
+}
+
+.extras{
+	width: 1000px;
+	margin: auto;
 }
 
 @media screen and (max-width: 992px) {
