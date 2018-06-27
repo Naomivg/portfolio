@@ -3,9 +3,13 @@
   font-family: "Open sans";
 }
 
-h1, h2{
+h1{
 	font-family: "League Spartan";
 	color: #FFD55D;
+}
+
+h2{
+	color: black;
 }
 
 h3{
@@ -54,6 +58,19 @@ h3{
 	margin: 20px;
 }
 
+.lezen{
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: none;
+	color: black;
+	background-color: #FFD55D;
+	display: block;
+	border-radius: 5px;
+	width: 175px;
+	text-align: center;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
 
 .title{
 	display: flex;
@@ -151,6 +168,12 @@ footer{
 	height: 50px;
 }
 
+.copyright{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+
 .project{
 	width: 80%;
 }
@@ -159,16 +182,20 @@ footer{
 .portfolio{
 	height: 100%;
 	background-color: #F48FB1;
+	border-radius: 20px;
 }
 
 .other{
 	height: 100%;
 	background-color: #90CAF9;
+	border-radius: 20px;
 }
+
 
 .others{
 	height: 100%;
-	background-color: #BCAAA4;
+	background-color: #FCE4EC;
+	border-radius: 20px;
 }
 
 .design{
